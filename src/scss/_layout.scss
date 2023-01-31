@@ -3,19 +3,16 @@ nav {
     color: $primary-color;
   }
 }
-
 header {
   height: $huge;
-  background-image: url('../../images/header.jpg');
+  background-image: url("../../images/header.jpg");
   background-size: cover;
   text-align: center;
 }
-
 .card {
-  background-color: $border-color;
   border: $border-size solid $border-color;
   border-radius: 5px;
-
+  background-color: $card-bg;
   .img {
     background-size: cover;
     height: $large;
@@ -23,13 +20,11 @@ header {
     background-position: center;
   }
 }
-
 main {
   aside {
     border: $border-size solid $border-color;
   }
 }
-
 footer {
   background-color: $primary-color;
   a {
